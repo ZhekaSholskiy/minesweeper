@@ -1,0 +1,65 @@
+.cell-container {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+.hidden-cell {
+  background-image: url('./images/hidden-cell.jpg');
+}
+
+.open-cell {
+  background-image: url('./images/open-cell.jpg');
+}
+
+.flagged-cell {
+  background-image: url('./images/flagged-cell.jpg');
+}
+
+.question-cell {
+  background-image: url('./images/question-cell.jpg');
+}
+
+.mined-cell-hidden {
+  background-image: url('./images/mined-cell-hidden.jpg');
+}
+
+.one-mine {
+  background-image: url('./images/one-mine.jpg');
+}
+
+.two-mines {
+  background-image: url('./images/two-mines.jpg');
+}
+
+.three-mines {
+  background-image: url('./images/three-mines.jpg');
+}
+
+.four-mines {
+  background-image: url('./images/four-mines.jpg');
+}
+
+.five-mines {
+  background-image: url('./images/five-mines.jpg');
+}
+
+.six-mines {
+  background-image: url('./images/six-mines.jpg');
+}
+
+.seven-mines {
+  background-image: url('./images/seven-mines.jpg');
+}
+
+.eight-mines {
+  background-image: url('./images/eight-mines.jpg');
+}
+
+.blown-up {
+  background-image: url('./images/blown-up.jpg');
+}
+
+.fake-mine {
+  background-image: url('./images/fake-mine.jpg');
+}

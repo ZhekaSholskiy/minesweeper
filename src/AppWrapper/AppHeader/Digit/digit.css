@@ -1,0 +1,43 @@
+.digit-container {
+  width: 26px;
+}
+
+.zero-digit {
+  background-image: url('./images/0.jpg')
+}
+
+.one-digit {
+  background-image: url('./images/1.jpg')
+}
+
+.two-digit {
+  background-image: url('./images/2.jpg')
+}
+
+.three-digit {
+  background-image: url('./images/3.jpg')
+}
+
+.four-digit {
+  background-image: url('./images/4.jpg')
+}
+
+.five-digit {
+  background-image: url('./images/5.jpg')
+}
+
+.six-digit {
+  background-image: url('./images/6.jpg')
+}
+
+.seven-digit {
+  background-image: url('./images/7.jpg')
+}
+
+.eight-digit {
+  background-image: url('./images/8.jpg')
+}
+
+.nine-digit {
+  background-image: url('./images/9.jpg')
+}

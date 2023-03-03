@@ -1,0 +1,11 @@
+.game-area {
+  display: flex;
+  flex-wrap: wrap;
+
+  position: absolute;
+  top: 103px;
+  left: 18px;
+  right: 20px;
+  bottom: 21px;
+  background-color: gray ;
+}

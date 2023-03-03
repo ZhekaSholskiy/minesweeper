@@ -1,0 +1,29 @@
+.smile-container {
+  position: absolute;
+  left: 231px;
+  top: 7px;
+  bottom: 6px;
+  right: 230px;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.common-smile {
+  background-image: url('./images/smile.jpg');
+}
+
+.mousedown-smile {
+  background-image: url('./images/mousedown-smile.jpg');
+}
+
+.worry-smile {
+  background-image: url('./images/worry-smile.jpg');
+}
+
+.cool-smile {
+  background-image: url('./images/cool-smile.jpg');
+}
+
+.loosed-smile {
+  background-image: url('./images/loosed-smile.jpg');
+}
