@@ -1,11 +1,9 @@
 
 import { useState } from 'react'
 import './smile.css'
-export function Smile(props: {gameState: string, worrySmile: boolean, newGame: () => void}) {
+const Smile = (props: {gameState: string, worrySmile: boolean, newGame: () => void}) => {
 
   const [isMouseDown, setIsMousedown] = useState(false);
-
-  console.log(props.gameState, props.worrySmile)
 
   return <div className={`smile-container ${props.worrySmile ? 'worry-smile' :
                                             isMouseDown ? 'mousedown-smile' :
@@ -25,3 +23,5 @@ export function Smile(props: {gameState: string, worrySmile: boolean, newGame: (
 
   </div>
 }
+
+export default Smile

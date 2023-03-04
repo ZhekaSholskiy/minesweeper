@@ -1,5 +1,5 @@
 import { MinesCounter } from './MinesCounter/MinesCounter'
-import { Smile } from './Smile/Smile'
+import Smile from './Smile/Smile'
 import { TimeCounter } from './TimeCounter/TimeCounter'
 import './appheader.css'
 export function AppHeader(props: {minesAmount: Set<number>, gameState: string, worrySmile: boolean, newGame: () => void}) {

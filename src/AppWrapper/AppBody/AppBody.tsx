@@ -49,8 +49,6 @@ export function AppBody(props: {minesAmountControl: IMinesAmountControl, gameSta
       return 11;
   }
 
-  console.log(openedCells)
-
   useEffect(() => {
     if (props.gameState.getValue === 'start') {
       setMinesArray(new Set());

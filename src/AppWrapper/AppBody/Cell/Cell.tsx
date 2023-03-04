@@ -7,7 +7,7 @@ export function Cell(props: ICell) {
   const [state, setState] = useState(10);
 
   useEffect(() => {
-    if (props.gameState.getValue === 'start') {
+    if (props.gameState.getValue === 'start' && state !== 14) {
       setState(10);
     }
   }, [props.gameState])
